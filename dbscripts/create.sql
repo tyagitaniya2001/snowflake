@@ -1,2 +1,2 @@
-create schema new_get_schema;
-create table mycustomer_git(ID number,NAME varchar,AGE number ,ADDRESS varchar,SALARY decimal);
+use schema SCHEMA_TEST;
+create table mycustomer_git_2(ID number,NAME varchar,AGE number ,ADDRESS varchar,SALARY decimal);
