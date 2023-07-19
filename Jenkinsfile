@@ -2,15 +2,15 @@ pipeline {
     agent any
     stages {
 
-        stage(‘Test run’) {
+        stage('Test run') {
             steps {
-                echo “Production Deployment with Schemachange”
+                echo "Production Deployment with Schemachange"
                 }
             }
 
-        stage(‘Get Schemachange’) {
+        stage('Get Schemachange') {
             steps{
-                sh “git clone https://github.com/Snowflake-Labs/schemachange.git"
+                sh "git clone https://github.com/Snowflake-Labs/schemachange.git"
                 }
             }
 
