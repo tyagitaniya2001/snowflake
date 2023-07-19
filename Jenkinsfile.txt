@@ -2,11 +2,6 @@ pipeline {
 
 agent any
 
-environment {
-
-
-}
-
 stages {
 
 stage(‘Test run’) {
@@ -47,4 +42,3 @@ sh “python3 schemachange/schemachange/cli.py deploy -f dbscripts -a ${SF_ACCOU
 
 }
 
-}
